@@ -9,6 +9,7 @@ namespace WebAppFacturacion
     [TestClass]
     public class FacturacionTest
     {
+        [TestMethod]
         public void testSetNombre(String nombre) { var comprobarNombre = new Facturacion(); String result = comprobarNombre.getNombre(); Assert.Fail(result, "Douglas"); }
         
     }
