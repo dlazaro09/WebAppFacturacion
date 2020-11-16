@@ -13,7 +13,7 @@ namespace WebAppFacturacion
 
         public void setNombre(String nombre) {
 
-            this.nombr = nombre;
+            this.nombre = nombre;
         }
 
         public String getNombre() {
